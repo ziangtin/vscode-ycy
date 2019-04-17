@@ -17,13 +17,13 @@
         "鼓励"
     ],
     "bugs": {
-        "url": "https://github.com/formulahendry/vscode-ycy/issues",
+        "url": "https://github.com/ziangtin/vscode-ycy/issues",
         "email": "formulahendry@gmail.com"
     },
-    "homepage": "https://github.com/formulahendry/vscode-ycy/blob/master/README.md",
+    "homepage": "https://github.com/ziangtin/vscode-ycy/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/formulahendry/vscode-ycy.git"
+        "url": "https://github.com/ziangtin/vscode-ycy.git"
     },
     "activationEvents": [
         "onCommand:ycy.showReminderView",
