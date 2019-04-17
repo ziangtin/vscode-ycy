@@ -1,10 +1,10 @@
 {
-    "name": "ycy",
-    "displayName": "超越鼓励师",
-    "description": "写代码不再孤单，有杨超越与你同在",
-    "version": "0.0.3",
-    "publisher": "formulahendry",
-    "icon": "logo.jpg",
+    "name": "wmls",
+    "displayName": "wmls冲鸭",
+    "description": "写代码不再孤单，有MAYDAY与你同在",
+    "version": "0.0.1",
+    "publisher": "ziang",
+    "icon": "logo.png",
     "engines": {
         "vscode": "^1.30.0"
     },
@@ -12,7 +12,7 @@
         "Other"
     ],
     "keywords": [
-        "杨超越",
+        "wmls",
         "提醒",
         "鼓励"
     ],
@@ -35,17 +35,27 @@
             {
                 "command": "ycy.showReminderView",
                 "title": "打开提醒页面",
-                "category": "ycy"
+                "category": "wmls"
             }
         ],
         "configuration": {
             "type": "object",
             "title": "杨超越",
             "properties": {
-                "ycy.reminderViewIntervalInMinutes": {
+                "wmls.reminderViewIntervalInMinutes": {
                     "type": "number",
                     "default": 60,
                     "description": "展示提醒页面的时间间隔（分钟）"
+                },
+                "wmls.nickName": {
+                    "type": "string",
+                    "default": "攻城狮",
+                    "description": "昵称"
+                },
+                "wmls.photos":{
+                    "type":"array",
+                    "default":[],
+                    "description": "图片"
                 }
             }
         }
